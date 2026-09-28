@@ -1,0 +1,9 @@
+workload,vm_count,strategy,predicted_cpu,predicted_memory,required_hosts,before_power_watts,after_power_watts,powered_on_hosts,active_hosts,rejected_vms,vm_migrations,energy_saved_kwh,energy_saving_percentage,carbon_saved_kg,cost_saved,sla_status,sla_violations
+LOW,10,Reactive,,,,730.0,370.0,2,2,0,2,0.36,49.32,0.252,2.88,SATISFIED,0
+LOW,10,Predictive,47.31,44.87,2.0,730.0,370.0,2,2,0,2,0.36,49.32,0.252,2.88,SATISFIED,0
+MEDIUM,20,Reactive,,,,860.0,740.0,4,4,0,12,0.12,13.95,0.084,0.96,SATISFIED,0
+MEDIUM,20,Predictive,48.73,46.03,4.0,860.0,740.0,4,4,0,12,0.12,13.95,0.084,0.96,SATISFIED,0
+HIGH,30,Reactive,,,,990.0,990.0,5,5,0,0,0.0,0.0,0.0,0.0,SATISFIED,0
+HIGH,30,Predictive,51.48,48.48,6.0,1110.0,990.0,5,5,0,0,0.12,10.81,0.084,0.96,SATISFIED,0
+PEAK,40,Reactive,,,,990.0,990.0,5,5,10,0,0.0,0.0,0.0,0.0,VIOLATION,10
+PEAK,40,Predictive,51.44,48.5,8.0,1480.0,1360.0,7,7,0,12,0.12,8.11,0.084,0.96,SATISFIED,0
